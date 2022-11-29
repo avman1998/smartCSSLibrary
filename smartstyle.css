@@ -1,0 +1,134 @@
+body {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+/* Colors */
+
+/* Red */
+.red-bg {
+  background-color: red;
+}
+.lightRed-bg {
+  background-color: lightcoral;
+}
+.red-text {
+  color: red;
+}
+.lightRed-text {
+  color: lightcoral;
+}
+
+/* Green */
+.green-bg {
+  background-color: green;
+}
+.lightGreen-bg {
+  background-color: lightgreen;
+}
+.green-text {
+  color: green;
+}
+.lightGreen-text {
+  color: lightgreen;
+}
+
+/* Blue */
+.blue-bg {
+  background-color: blue;
+}
+.lightBlue-bg {
+  background-color: lightblue;
+}
+.blue-text {
+  color: blue;
+}
+.lightBlue-text {
+  color: lightblue;
+}
+
+/* Yellow */
+.yellow-bg {
+  background-color: yellow;
+}
+.lightYellow-bg {
+  background-color: lightyellow;
+}
+.yellow-text {
+  color: yellow;
+}
+.lightYellow-text {
+  color: lightyellow;
+}
+
+/* Gray */
+.gray-bg {
+  background-color: gray;
+}
+.lightGray-bg {
+  background-color: lightgray;
+}
+.gray-text {
+  color: gray;
+}
+.lightGray-text {
+  color: lightgray;
+}
+
+/* Black */
+.black-bg {
+  background-color: black;
+}
+.black-text {
+  color: black;
+}
+
+/* White */
+.white-bg {
+  background-color: white;
+}
+.white-text {
+  color: white;
+}
+
+/* padding */
+.pd-1 {
+  padding: 1rem;
+}
+.pd-2 {
+  padding: 2rem;
+}
+
+/* sizes */
+.sm {
+  height: 3rem;
+  font-size: 3rem;
+}
+.md {
+  height: 5rem;
+  font-size: 5rem;
+}
+.lg {
+  height: 7rem;
+  font-size: 7rem;
+}
+/* //Avatar */
+
+.avatar {
+  border-radius: 50%;
+}
+.sm {
+  height: 3rem;
+
+  object-fit: cover;
+}
+.md {
+  height: 5rem;
+
+  object-fit: cover;
+}
+.lg {
+  height: 7rem;
+
+  object-fit: cover;
+}
