@@ -37,10 +37,10 @@ body {
   width: fit-content;
   box-shadow: 4px 0px 8px black;
   background-color: #e0d9d8;
-  margin-top: -20px;
+  /* margin-top: -20px; */
 }
 .sidebar.avatarsidebar {
-  margin-top: 0px;
+  /* margin-top: 0px; */
 }
 .sidebar ul {
 }
@@ -52,7 +52,7 @@ body {
   margin: 15px 15px;
 }
 .sidebar ul li:first-child a {
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 .sidebar ul li a {
   text-decoration: none;
