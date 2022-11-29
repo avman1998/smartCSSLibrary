@@ -11,8 +11,6 @@ body {
   top: 0;
   padding: 5px 0px;
   width: 100%;
-  background: whitesmoke;
-  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +27,10 @@ body {
   font-size: 120%;
   font-weight: bold;
 }
-
+.navbar div p a {
+  text-decoration: none;
+  color: white;
+}
 .sidebar {
   position: relative;
   left: 0;
@@ -96,6 +97,19 @@ body {
   gap: 30px;
   justify-content: center;
   align-items: center;
+}
+.main-content .main-home {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-top: 50px;
+}
+.main-content main .main-heading {
+  text-align: center;
+}
+.main-content main iframe {
+  /* border-radius: 10px; */
+  padding: 0px;
 }
 .main-content main .code {
   margin-top: 20px;
