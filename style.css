@@ -7,6 +7,13 @@ body {
   font-family: "PT Sans Narrow", sans-serif;
   background-color: rgb(17, 24, 39);
 }
+/* padding */
+.pd-1 {
+  padding: 1rem;
+}
+.pd-2 {
+  padding: 2rem;
+}
 .navbar {
   position: relative;
   top: 0;
@@ -223,6 +230,8 @@ body {
   gap: 30px;
   margin: 20px 0px;
 }
+.main-content main .components .card {
+}
 .lightRed-bg {
   background-color: lightcoral;
 }
@@ -353,4 +362,180 @@ body {
 }
 .f-underline {
   text-decoration: underline;
+}
+
+/* Border */
+.border-circle {
+  border-radius: 50%;
+}
+.border-rad-1 {
+  border-radius: 3px;
+}
+.border-rad-2 {
+  border-radius: 6px;
+}
+.border-rad-3 {
+  border-radius: 9px;
+}
+.border-rad-4 {
+  border-radius: 12px;
+}
+.border-rad-5 {
+  border-radius: 15px;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* flex gaps */
+.gap-1 {
+  gap: 10px;
+}
+.gap-2 {
+  gap: 20px;
+}
+.gap-3 {
+  gap: 30px;
+}
+.gap-4 {
+  gap: 40px;
+}
+.gap-5 {
+  gap: 50px;
+}
+
+/* Justify-content */
+.justify-center {
+  justify-content: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-baseline {
+  justify-content: baseline;
+}
+
+/* align-items */
+.items-center {
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
+.items-baseline {
+  align-items: baseline;
+}
+/* Text position */
+.center-text {
+  text-align: center;
+}
+.left-text {
+  text-align: left;
+}
+.right-text {
+  text-align: right;
+}
+
+/* Text Size */
+.text-1 {
+  font-size: 16px;
+}
+.text-2 {
+  font-size: 20px;
+}
+.text-3 {
+  font-size: 24px;
+}
+.text-4 {
+  font-size: 28px;
+}
+.text-5 {
+  font-size: 32px;
+}
+.text-6 {
+  font-size: 36px;
+}
+.text-7 {
+  font-size: 40px;
+}
+
+/* width */
+.w-1 {
+  width: 10%;
+}
+.w-2 {
+  width: 20%;
+}
+.w-3 {
+  width: 30%;
+}
+.w-4 {
+  width: 40%;
+}
+.w-5 {
+  width: 50%;
+}
+.w-6 {
+  width: 60%;
+}
+.w-7 {
+  width: 70%;
+}
+.w-8 {
+  width: 80%;
+}
+.w-9 {
+  width: 90%;
+}
+.w-10 {
+  width: 100%;
+}
+
+/* Height */
+.h-1 {
+  height: 10%;
+}
+.h-2 {
+  height: 20%;
+}
+.h-3 {
+  height: 30%;
+}
+.h-4 {
+  height: 40%;
+}
+.h-5 {
+  height: 50%;
+}
+.h-6 {
+  height: 60%;
+}
+.h-7 {
+  height: 70%;
+}
+.h-8 {
+  height: 80%;
+}
+.h-9 {
+  height: 90%;
+}
+.h-10 {
+  height: 100%;
 }
