@@ -182,7 +182,6 @@ body {
 }
 .calltoaction-basic {
   display: flex;
-  width: 100%;
   justify-content: space-between;
   gap: 100px;
   align-items: center;
