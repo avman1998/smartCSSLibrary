@@ -103,35 +103,24 @@ body {
 .sm {
   height: 3rem;
   font-size: 3rem;
+  object-fit: cover;
 }
 .md {
   height: 5rem;
   font-size: 5rem;
+  object-fit: cover;
 }
 .lg {
   height: 7rem;
   font-size: 7rem;
+  object-fit: cover;
 }
 /* //Avatar */
 
 .avatar {
   border-radius: 50%;
 }
-.sm {
-  height: 3rem;
 
-  object-fit: cover;
-}
-.md {
-  height: 5rem;
-
-  object-fit: cover;
-}
-.lg {
-  height: 7rem;
-
-  object-fit: cover;
-}
 /* buttons */
 .btn-basic {
   border-radius: 0.5rem;
@@ -180,6 +169,8 @@ body {
   background: transparent;
   border: 1px solid white;
 }
+
+/* Call to Action */
 .calltoaction-basic {
   display: flex;
   justify-content: space-between;
@@ -204,6 +195,8 @@ body {
   gap: 30px;
   margin: 20px 0px;
 }
+
+/* Font Size */
 .f-1 {
   font-size: 100%;
 }
@@ -222,6 +215,8 @@ body {
 .f-6 {
   font-size: 600%;
 }
+
+/* Font Style */
 .f-bold {
   font-weight: bold;
 }
