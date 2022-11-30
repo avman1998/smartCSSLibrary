@@ -192,7 +192,6 @@ body {
 }
 .main-content main .components.call-to-Action .calltoaction-basic {
   display: flex;
-  width: 100%;
   justify-content: space-between;
   gap: 200px;
   align-items: center;
