@@ -190,6 +190,41 @@ body {
   font-weight: 600;
   border: none;
 }
+.main-content main .components.call-to-Action .calltoaction-basic {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 200px;
+  align-items: center;
+  padding: 20px;
+}
+.main-content main .components.call-to-Action .calltoaction-advanced {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 20px;
+}
+.main-content
+  main
+  .components.call-to-Action
+  .calltoaction-advanced
+  .calltoaction-main-text {
+  padding: 5px 60px;
+  text-align: center;
+  margin: 10px 0px;
+}
+.main-content
+  main
+  .components.call-to-Action
+  .calltoaction-advanced
+  .calltoaction-buttons {
+  display: flex;
+  gap: 30px;
+  margin: 20px 0px;
+}
 .lightRed-bg {
   background-color: lightcoral;
 }
@@ -293,4 +328,31 @@ body {
 }
 .pd-2 {
   padding: 2rem;
+}
+.f-1 {
+  font-size: 100%;
+}
+.f-2 {
+  font-size: 200%;
+}
+.f-3 {
+  font-size: 300%;
+}
+.f-4 {
+  font-size: 400%;
+}
+.f-5 {
+  font-size: 500%;
+}
+.f-6 {
+  font-size: 600%;
+}
+.f-bold {
+  font-weight: bold;
+}
+.f-italic {
+  font-style: italic;
+}
+.f-underline {
+  text-decoration: underline;
 }
