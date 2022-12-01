@@ -274,6 +274,12 @@ body {
 .gap-5 {
   gap: 50px;
 }
+.gap-10 {
+  gap: 100px;
+}
+.gap-20 {
+  gap: 200px;
+}
 
 /* Justify-content */
 .justify-center {
@@ -427,4 +433,12 @@ body {
 /* //Display:none */
 .none {
   display: none;
+}
+
+/* Navbar */
+.nav-box {
+  border: 3px solid white;
+}
+.nav-link:hover {
+  border-bottom: 3px solid white;
 }
