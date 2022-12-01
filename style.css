@@ -571,3 +571,6 @@ body {
   line-height: 2rem;
   text-align: center;
 }
+.none {
+  display: none;
+}

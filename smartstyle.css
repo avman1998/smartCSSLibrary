@@ -424,3 +424,7 @@ body {
   line-height: 2rem;
   text-align: center;
 }
+/* //Display:none */
+.none {
+  display: none;
+}

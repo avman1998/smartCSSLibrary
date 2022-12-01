@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Components</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+      type="image/icon type"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div>
+        <p><a href="/index.html">Smart CSS Library</a></p>
+        <img src="" alt="" />
+      </div>
+    </nav>
+    <div class="main-content">
+      <section class="sidebar avatarsidebar">
+        <ul>
+          <li><a href="./avatar.html">Avatar</a></li>
+          <li><a href="./button.html">Button</a></li>
+          <li><a href="./calltoaction.html">Call to action</a></li>
+          <li><a href="./card.html">Card</a></li>
+          <li><a href="./error.html">Error</a></li>
+          <li><a href="./footer.html">Footer</a></li>
+          <li><a href="">Input</a></li>
+          <li><a href="/">Navbar</a></li>
+          <li><a href="/">Shopping Cart</a></li>
+          <li><a href="/">Stats</a></li>
+        </ul>
+      </section>
+      <main class="btn-main">
+        <div class="components">
+          <div class="flex flex-col gap-5">
+            <div class="flex text-3">
+              <span class="gray-bg white-text pd-1">Name</span>
+              <input class="text-3" type="text" placeholder="Enter your name" />
+            </div>
+            <div class="flex text-3">
+              <span class="gray-bg white-text pd-1">Email</span>
+              <input
+                class="text-3"
+                type="email"
+                value=""
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="flex">
+              <span class="gray-bg white-text pd-1 text-1">Password</span>
+              <input
+                class="text-3"
+                type="password"
+                placeholder="Enter your password"
+              />
+            </div>
+            <label class="cursor-pointer flex items-center gap-2" for="file">
+              <img
+                src="https://spng.pngfind.com/pngs/s/66-661223_png-file-svg-file-upload-icon-png-transparent.png"
+                alt="file"
+                width="50px"
+                height="50px"
+                class="border-circle"
+              />
+              <span class="text-3">Upload File</span>
+            </label>
+            <input type="file" id="file" class="none" />
+            <input
+              type="submit"
+              class="text-3 cursor-pointer f-bold white-bg black-text pd-1"
+            />
+          </div>
+        </div>
+        <div class="code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=33px&ph=21px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2520flex-col%2520gap-5%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520text-3%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522gray-bg%2520white-text%2520pd-1%2522%253EName%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522text-3%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520text-3%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522gray-bg%2520white-text%2520pd-1%2522%253EEmail%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522text-3%2522%2520type%253D%2522email%2522%2520value%253D%2522%2522%2520placeholder%253D%2522Enter%2520your%2520email%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522gray-bg%2520white-text%2520pd-1%2520text-1%2522%253EPassword%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522text-3%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Clabel%2520class%253D%2522cursor-pointer%2520flex%2520items-center%2520gap-2%2522%2520for%253D%2522file%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fspng.pngfind.com%252Fpngs%252Fs%252F66-661223_png-file-svg-file-upload-icon-png-transparent.png%2522%2520alt%253D%2522file%2522%2520width%253D%252250px%2522%2520height%253D%252250px%2522%2520class%253D%2522border-circle%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-3%2522%253EUpload%2520File%253C%252Fspan%253E%250A%2520%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522file%2522%2520id%253D%2522file%2522%2520class%253D%2522none%2522%2520%252F%253E%250A%2520%2520%253Cinput%2520type%253D%2522submit%2522%2520class%253D%2522text-3%2520cursor-pointer%2520f-bold%2520white-bg%2520black-text%2520pd-1%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A&tb="
+            style="
+              width: 1024px;
+              height: 600px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
