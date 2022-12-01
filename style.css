@@ -539,3 +539,12 @@ body {
 .h-10 {
   height: 100%;
 }
+
+/* paragraph */
+
+.text {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
