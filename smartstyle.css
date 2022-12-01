@@ -407,3 +407,20 @@ body {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
+/* //Curson-pointer */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Footer */
+.footer-basic {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-icon-box {
+  border-radius: 50%;
+  width: 2rem;
+  line-height: 2rem;
+  text-align: center;
+}

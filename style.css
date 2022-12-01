@@ -510,10 +510,10 @@ body {
 
 /* Height */
 .h-1 {
-  height: 10%;
+  height: 10px;
 }
 .h-2 {
-  height: 20%;
+  height: 20px;
 }
 .h-3 {
   height: 30%;
@@ -547,4 +547,27 @@ body {
   margin-block-end: 0;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+/* cursor */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Footer */
+.footer-basic {
+  display: flex;
+  justify-content: space-between;
+}
+.gap-550 {
+  gap: 550px;
+}
+.gap-150 {
+  gap: 150px;
+}
+.footer-icon-box {
+  border-radius: 50%;
+  width: 2rem;
+  line-height: 2rem;
+  text-align: center;
 }
